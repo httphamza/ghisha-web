@@ -1,0 +1,136 @@
+
+body {
+  background-color: #28282b;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Navigation styling */
+.nav-container {
+  background-color: #28282b;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px;
+  position: relative;
+  z-index: 100;
+  
+  /* -ms-flex-align: end; */
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  position: relative;
+  z-index: 100;
+}
+.link {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+.link:hover {
+  color: #ede4d9;
+  text-decoration: underline;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  /* position: absolute; */
+  object-fit: cover;
+  overflow: hidden;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.container {
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 600px;
+}
+
+.intro{
+  position: absolute;
+  margin-left: 512px;
+}
+
+.w3-section{
+  overflow: hidden;
+  margin-left: 100px;
+  /* margin-top:100px !important; */
+  max-width: 400px;
+  border-radius: 10px;
+  position: absolute;
+}
+.main-cont {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  
+  background-image: url(https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  padding-right: 130px;}
+
+  .text {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid white;
+    margin-top: 30px;
+    margin-left: 570px;
+    margin-right: 570px;
+    border-radius: 50px;
+  }
+  .main-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card {
+   border: 0px;
+   background-color: #e5e3d4;
+   border-radius: 30px;
+  }
+.card-text {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.list-group-item {
+  background-color: #e5e3d4;
+}
+.image {
+  border-radius: 25px 25px 0px 0px;
+}
+.card-link {
+  color: #8a1717;
+  text-decoration: none;
+  background-color: black;
+  font-weight: bolder;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  border: 0px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-left: 30px;
+}
+.blabla {
+  color: #ede4d9;
+}
